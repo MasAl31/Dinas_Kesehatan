@@ -26,6 +26,8 @@ class BeritaController extends Controller
             'foto' => 'required',
         ]);
 
+        // Deni
+
         if($request->hasFile('foto')){
 
             $image = $request->file('foto')->store('berita', 'public');

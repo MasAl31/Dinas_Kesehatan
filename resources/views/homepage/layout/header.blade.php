@@ -4,12 +4,12 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>Index - Medilab Bootstrap Template</title>
+    <title>Kontak - Dinas Kesehatan Purwakarta</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="{{ url('homepage') }}/img/favicon.png" rel="icon">
+    <link href="{{ url('homepage') }}/img/logo-pwk.png" rel="icon">
     <link href="{{ url('homepage') }}/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Fonts -->
@@ -66,6 +66,7 @@
                     <!-- Uncomment the line below if you also wish to use an image logo -->
                     <img src="{{ url('homepage') }}/img/logo-pwk.png" alt="">
                     <h1 class="sitename"></h1>
+                    <h3> Dinas Kesehatan </h3>
                 </a>
 
                 <nav id="navmenu" class="navmenu">
@@ -73,7 +74,7 @@
                         <li><a href="#hero" class="active">Beranda<br></a></li>
                         <li><a href="#about">Tentang</a></li>
                         <li><a href="#services">Layanan</a></li>
-                        <li><a href="#departments">Departments</a></li>
+                        {{-- <li><a href="#departments">Departments</a></li> --}}
                         <li><a href="#doctors">Dokter</a></li>
 
                         <li><a href="#contact">Kontak</a></li>

@@ -11,8 +11,8 @@
                 <div class="footer-contact pt-3">
                     <p>Jl. Veteran No.60, Nagri Kaler, Kec. Purwakarta</p>
                     <p>Kab.Purwakarta, Jawa Barat 41115 <br> Indonesia</p>
-                    <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-                    <p><strong>Email:</strong> <span>info@example.com</span></p>
+                    <p class="mt-3"><strong>Phone:</strong> <span>085280613035</span></p>
+                    <p><strong>Email:</strong> <span>deniaprianto42@gmail.com</span></p>
                 </div>
                 <div class="social-links d-flex mt-4">
                     <a href=""><i class="bi bi-twitter-x"></i></a>

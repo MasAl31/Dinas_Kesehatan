@@ -13,12 +13,9 @@
         <div class="content row gy-4">
             <div class="col-lg-4 d-flex align-items-stretch">
                 <div class="why-box" data-aos="zoom-out" data-aos-delay="200">
-                    <h3>Kenapa harus di ?</h3>
+                    <h3>Kenapa harus di Dinas Kesehatan?</h3>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
-                        Asperiores dolores sed et. Tenetur quia eos. Autem tempore quibusdam vel necessitatibus
-                        optio ad corporis.
+                        Menyajikan Informasi terkait dinas kesehatan dan topik kesehatan di Kabupaten Purwakarta
                     </p>
                     <div class="text-center">
                         <a href="#about" class="more-btn"><span>Baca lebih lanjut</span> <i
@@ -34,27 +31,27 @@
                         <div class="col-xl-4 d-flex align-items-stretch">
                             <div class="icon-box" data-aos="zoom-out" data-aos-delay="300">
                                 <i class="bi bi-clipboard-data"></i>
-                                <h4>Corporis voluptates officia eiusmod</h4>
-                                <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut
-                                    aliquip</p>
+                                <h4> Rumah Sakit</h4>
+                                {{-- <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut
+                                    aliquip</p> --}}
                             </div>
                         </div><!-- End Icon Box -->
 
                         <div class="col-xl-4 d-flex align-items-stretch">
                             <div class="icon-box" data-aos="zoom-out" data-aos-delay="400">
                                 <i class="bi bi-gem"></i>
-                                <h4>Ullamco laboris ladore pan</h4>
-                                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                                    deserunt</p>
+                                <h4>Puskesmas</h4>
+                                {{-- <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                    deserunt</p> --}}
                             </div>
                         </div><!-- End Icon Box -->
 
                         <div class="col-xl-4 d-flex align-items-stretch">
                             <div class="icon-box" data-aos="zoom-out" data-aos-delay="500">
                                 <i class="bi bi-inboxes"></i>
-                                <h4>Labore consequatur incidid dolore</h4>
-                                <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis
-                                    facere</p>
+                                <h4>Dokter</h4>
+                                {{-- <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis
+                                    facere</p> --}}
                             </div>
                         </div><!-- End Icon Box -->
 
@@ -76,39 +73,50 @@
 
             <div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="200">
                 <img src="{{ url('homepage') }}/img/about.jpg" class="img-fluid" alt="">
-                <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox pulsating-play-btn"></a>
+                {{-- <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox pulsating-play-btn"></a> --}}
             </div>
 
             <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
                 <h3>Tentang Kami</h3>
                 <p>
-                    Dolor iure expedita id fuga asperiores qui sunt consequatur minima. Quidem voluptas
-                    deleniti. Sit quia molestiae quia quas qui magnam itaque veritatis dolores. Corrupti totam
-                    ut eius incidunt reiciendis veritatis asperiores placeat.
+                    Pemerintah yang bertanggung jawab dalam mengatur dan menyelenggarakan 
+                    berbagai kegiatan untuk meningkatkan kesehatan masyarakat. 
+                    Tugas kami meliputi penyuluhan kesehatan, pengawasan terhadap penyakit menular, 
+                    pencegahan penyakit, pengelolaan fasilitas kesehatan, serta penyediaan layanan kesehatan dasar. 
+                    Dinas Kesehatan juga berperan dalam mengatur kebijakan, standar, dan regulasi terkait dengan kesehatan masyarakat, 
+                    serta bekerja sama dengan berbagai pihak untuk mencapai tujuan kesehatan nasional.
                 </p>
                 <ul>
                     <li>
-                        <i class="fa-solid fa-vial-circle-check"></i>
+                        <i class="fa-solid fa-heart-circle-xmark"></i>
                         <div>
-                            <h5>Ullamco laboris nisi ut aliquip consequat</h5>
-                            <p>Magni facilis facilis repellendus cum excepturi quaerat praesentium libre trade
+                            <h5>Rumah Sakit</h5>
+                            <p>Fasilitas kesehatan yang sangat penting bagi kesehatan manusia dan menyediakan layanan medis 
+                                dan perawatan yang lebih kompleks dibandingkan dengan pusat kesehatan primer. 
+                                Rumah sakit sangat penting untuk menyediakan diagnosis, pengobatan, rehabilitasi, dan 
+                                perawatan jangka panjang bagi pasien yang membutuhkan perawatan intensif.
                             </p>
                         </div>
                     </li>
                     <li>
                         <i class="fa-solid fa-pump-medical"></i>
                         <div>
-                            <h5>Magnam soluta odio exercitationem reprehenderi</h5>
-                            <p>Quo totam dolorum at pariatur aut distinctio dolorum laudantium illo direna
-                                pasata redi</p>
+                            <h5>Klinik</h5>
+                            <p>Fasilitas kesehatan yang menawarkan layanan medis dasar, pemeriksaan, diagnosis, pengobatan, 
+                                dan perawatan kepada pasien dengan kondisi medis yang lebih ringan atau tidak darurat. 
+                                Klinik biasanya berfokus pada layanan medis primer dan pencegahan, seperti pemeriksaan kesehatan rutin, 
+                                pengobatan penyakit umum, konsultasi medis, dan tindakan medis sederhana. Klinik juga dapat memiliki 
+                                fasilitas dasar seperti ruang pemeriksaan, ruang tunggu, dan ruang perawatan. Mereka juga dapat memiliki fasilitas 
+                                diagnostik dasar seperti laboratorium darah, ruang rontgen, atau ruang USG</p>
                         </div>
                     </li>
                     <li>
-                        <i class="fa-solid fa-heart-circle-xmark"></i>
+                        <i class="fa-solid fa-vial-circle-check"></i>
                         <div>
-                            <h5>Voluptatem et qui exercitationem</h5>
-                            <p>Et velit et eos maiores est tempora et quos dolorem autem tempora incidunt maxime
-                                veniam</p>
+                            <h5>Lab Kesehatan</h5>
+                            <p>fasilitas medis dimana tes laboratorium dilakukan untuk mendiagnosis, memantau, atau 
+                                menilai kondisi kesehatan seseorang. Tes yang umum dilakukan di lab kesehatan meliputi pemeriksaan darah, urine, 
+                                dan berbagai tes lainnya untuk mendeteksi penyakit atau mengevaluasi fungsi organ tubuh.</p>
                         </div>
                     </li>
                 </ul>
@@ -132,7 +140,7 @@
                 <div class="stats-item">
                     <span data-purecounter-start="0" data-purecounter-end="85" data-purecounter-duration="1"
                         class="purecounter"></span>
-                    <p>Doctors</p>
+                    <p>Dokter</p>
                 </div>
             </div><!-- End Stats Item -->
 
@@ -150,7 +158,7 @@
                 <div class="stats-item">
                     <span data-purecounter-start="0" data-purecounter-end="12" data-purecounter-duration="1"
                         class="purecounter"></span>
-                    <p>Research Labs</p>
+                    <p>Laboratorium Penelitian</p>
                 </div>
             </div><!-- End Stats Item -->
 
@@ -159,7 +167,7 @@
                 <div class="stats-item">
                     <span data-purecounter-start="0" data-purecounter-end="150" data-purecounter-duration="1"
                         class="purecounter"></span>
-                    <p>Awards</p>
+                    <p>Penghargaan</p>
                 </div>
             </div><!-- End Stats Item -->
 
@@ -174,8 +182,8 @@
 
     <!-- Section Title -->
     <div class="container section-title" data-aos="fade-up">
-        <h2>Services</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <h2>Layanan</h2>
+        <p>Kami siap melayani Anda kapan saja dengan tim medis yang terlatih dan fasilitas lengkap untuk menangani berbagai kondisi darurat</p>
     </div><!-- End Section Title -->
 
     <div class="container">
@@ -188,10 +196,9 @@
                         <i class="fas fa-heartbeat"></i>
                     </div>
                     <a href="#" class="stretched-link">
-                        <h3>Nesciunt Mete</h3>
+                        <h3>Layanan Darurat 24 Jam</h3>
                     </a>
-                    <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores
-                        iure perferendis tempore et consequatur.</p>
+                    <p>Untuk kenyamanan Anda, Kami menyelenggarakan pelayanan penyaringan untuk kasus-kasus yang membutuhkan penanganan lanjutan seperti ICU, ICCU, maupun rawat inap.</p>
                 </div>
             </div><!-- End Service Item -->
 
@@ -201,10 +208,9 @@
                         <i class="fas fa-pills"></i>
                     </div>
                     <a href="#" class="stretched-link">
-                        <h3>Eosle Commodi</h3>
+                        <h3>Farmasi</h3>
                     </a>
-                    <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum
-                        hic non ut nesciunt dolorem.</p>
+                    <p>Farmasi kami menyediakan berbagai obat atas resep dokter, Pelayanan Informasi Obat (PIO) dan Pelayanan Informasi Obat (PIO).</p>
                 </div>
             </div><!-- End Service Item -->
 
@@ -214,10 +220,9 @@
                         <i class="fas fa-hospital-user"></i>
                     </div>
                     <a href="#" class="stretched-link">
-                        <h3>Ledo Markt</h3>
+                        <h3>Konsultasi</h3>
                     </a>
-                    <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id
-                        voluptas adipisci eos earum corrupti.</p>
+                    <p>Untuk kenyamanan Anda, kami menyediakan layanan konsultasi langsung dengan dokter spesialis.</p>
                 </div>
             </div><!-- End Service Item -->
 
@@ -227,10 +232,9 @@
                         <i class="fas fa-dna"></i>
                     </div>
                     <a href="#" class="stretched-link">
-                        <h3>Asperiores Commodit</h3>
+                        <h3>Radiologi dan Diagnostik</h3>
                     </a>
-                    <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga
-                        sit provident adipisci neque.</p>
+                    <p>Kami memiliki fasilitas radiologi dan diagnostik canggih seperti MRI, CT scan, dan X-ray untuk membantu dokter mendiagnosis kondisi Anda dengan tepat.</p>
                     <a href="#" class="stretched-link"></a>
                 </div>
             </div><!-- End Service Item -->
@@ -241,10 +245,9 @@
                         <i class="fas fa-wheelchair"></i>
                     </div>
                     <a href="#" class="stretched-link">
-                        <h3>Velit Doloremque</h3>
+                        <h3>Rehabilitas dan Fisioterapi</h3>
                     </a>
-                    <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed
-                        animi at autem alias eius labore.</p>
+                    <p>Kami menyediakan layanan rehabilitasi untuk membantu pasien pulih dari cedera atau operasi. Tim fisioterapis kami akan merancang program pemulihan yang sesuai dengan kebutuhan Anda.</p>
                     <a href="#" class="stretched-link"></a>
                 </div>
             </div><!-- End Service Item -->
@@ -255,10 +258,9 @@
                         <i class="fas fa-notes-medical"></i>
                     </div>
                     <a href="#" class="stretched-link">
-                        <h3>Dolori Architecto</h3>
+                        <h3>Kesehatan Mental</h3>
                     </a>
-                    <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure.
-                        Corrupti recusandae ducimus enim.</p>
+                    <p>Layanan kesehatan mental kami mencakup konseling, terapi psikologis, dan perawatan psikiatris. Tim profesional kami siap membantu Anda mengatasi berbagai masalah kesehatan mental, seperti depresi, kecemasan, dan gangguan stres.</p>
                     <a href="#" class="stretched-link"></a>
                 </div>
             </div><!-- End Service Item -->
@@ -274,8 +276,8 @@
 
     <!-- Section Title -->
     <div class="container section-title" data-aos="fade-up">
-        <h2>Appointment</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <h2>Konsultasi</h2>
+        <p></p>
     </div><!-- End Section Title -->
 
     <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -284,15 +286,15 @@
             <div class="row">
                 <div class="col-md-4 form-group">
                     <input type="text" name="name" class="form-control" id="name"
-                        placeholder="Your Name" required="">
+                        placeholder="Nama" required="">
                 </div>
                 <div class="col-md-4 form-group mt-3 mt-md-0">
                     <input type="email" class="form-control" name="email" id="email"
-                        placeholder="Your Email" required="">
+                        placeholder="Email" required="">
                 </div>
                 <div class="col-md-4 form-group mt-3 mt-md-0">
                     <input type="tel" class="form-control" name="phone" id="phone"
-                        placeholder="Your Phone" required="">
+                        placeholder="No. Telepon" required="">
                 </div>
             </div>
             <div class="row">
@@ -302,30 +304,30 @@
                 </div>
                 <div class="col-md-4 form-group mt-3">
                     <select name="department" id="department" class="form-select" required="">
-                        <option value="">Select Department</option>
-                        <option value="Department 1">Department 1</option>
-                        <option value="Department 2">Department 2</option>
-                        <option value="Department 3">Department 3</option>
+                        <option value="">Pilih Rumah Sakit</option>
+                        <option value="Department 1">RS. Siloam </option>
+                        <option value="Department 2">RSIA. Asri </option>
+                        <option value="Department 3">RSUD. Bayu Asih </option>
                     </select>
                 </div>
                 <div class="col-md-4 form-group mt-3">
                     <select name="doctor" id="doctor" class="form-select" required="">
-                        <option value="">Select Doctor</option>
-                        <option value="Doctor 1">Doctor 1</option>
-                        <option value="Doctor 2">Doctor 2</option>
-                        <option value="Doctor 3">Doctor 3</option>
+                        <option value="">Pilih Dokter</option>
+                        <option value="Doctor 1">Dokter 1</option>
+                        <option value="Doctor 2">Dokter 2</option>
+                        <option value="Doctor 3">Dokter 3</option>
                     </select>
                 </div>
             </div>
 
             <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message (Optional)"></textarea>
+                <textarea class="form-control" name="message" rows="5" placeholder="Pesan (Optional)"></textarea>
             </div>
             <div class="mt-3">
                 <div class="loading">Loading</div>
                 <div class="error-message"></div>
                 <div class="sent-message">Your appointment request has been sent successfully. Thank you!</div>
-                <div class="text-center"><button type="submit">Make an Appointment</button></div>
+                <div class="text-center"><button type="submit">Konsultasi sekarang</button></div>
             </div>
         </form>
 
@@ -337,12 +339,12 @@
 <section id="departments" class="departments section">
 
     <!-- Section Title -->
-    <div class="container section-title" data-aos="fade-up">
+    {{-- <div class="container section-title" data-aos="fade-up">
         <h2>Departments</h2>
         <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-    </div><!-- End Section Title -->
+    </div><!-- End Section Title --> --}}
 
-    <div class="container" data-aos="fade-up" data-aos-delay="100">
+    {{-- <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="row">
             <div class="col-lg-3">
@@ -455,7 +457,7 @@
             </div>
         </div>
 
-    </div>
+    </div> --}}
 
 </section><!-- /Departments Section -->
 
@@ -464,8 +466,7 @@
 
     <!-- Section Title -->
     <div class="container section-title" data-aos="fade-up">
-        <h2>Doctors</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <h2>Dokter</h2>
     </div><!-- End Section Title -->
 
     <div class="container">
@@ -474,72 +475,72 @@
 
             <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
                 <div class="team-member d-flex align-items-start">
-                    <div class="pic"><img src="{{ url('homepage') }}/img/doctors/doctors-1.jpg" class="img-fluid"
+                    <div class="pic"><img src="{{ url('homepage') }}/img/doctors/agri.jpeg" class="img-fluid"
                             alt=""></div>
                     <div class="member-info">
                         <h4>Walter White</h4>
-                        <span>Chief Medical Officer</span>
-                        <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
-                        <div class="social">
+                        <span>Dokter Umum</span>
+                        <p><!--Explicabo voluptatem mollitia et repellat qui dolorum quasi --></p>
+                        {{-- <div class="social">
                             <a href=""><i class="bi bi-twitter-x"></i></a>
                             <a href=""><i class="bi bi-facebook"></i></a>
                             <a href=""><i class="bi bi-instagram"></i></a>
                             <a href=""> <i class="bi bi-linkedin"></i> </a>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
             </div><!-- End Team Member -->
 
             <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
                 <div class="team-member d-flex align-items-start">
-                    <div class="pic"><img src="{{ url('homepage') }}/img/doctors/doctors-2.jpg" class="img-fluid"
+                    <div class="pic"><img src="{{ url('homepage') }}/img/doctors/as'ad.jpg" class="img-fluid"
                             alt=""></div>
                     <div class="member-info">
-                        <h4>Sarah Jhonson</h4>
-                        <span>Anesthesiologist</span>
-                        <p>Aut maiores voluptates amet et quis praesentium qui senda para</p>
-                        <div class="social">
+                        <h4>William Jhonson</h4>
+                        <span>Dokter Spesialis Kelamin</span>
+                        <p><!-- Aut maiores voluptates amet et quis praesentium qui senda para --></p>
+                        {{-- <div class="social">
                             <a href=""><i class="bi bi-twitter-x"></i></a>
                             <a href=""><i class="bi bi-facebook"></i></a>
                             <a href=""><i class="bi bi-instagram"></i></a>
                             <a href=""> <i class="bi bi-linkedin"></i> </a>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
             </div><!-- End Team Member -->
 
             <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
                 <div class="team-member d-flex align-items-start">
-                    <div class="pic"><img src="{{ url('homepage') }}/img/doctors/doctors-3.jpg" class="img-fluid"
+                    <div class="pic"><img src="{{ url('homepage') }}/img/doctors/anggri.jpg" class="img-fluid"
                             alt=""></div>
                     <div class="member-info">
-                        <h4>William Anderson</h4>
-                        <span>Cardiology</span>
-                        <p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
-                        <div class="social">
+                        <h4>AngTzy Anderson</h4>
+                        <span>Dokter Gigi</span>
+                        <p><!-- Quisquam facilis cum velit laborum corrupti fuga rerum quia --></p>
+                        {{-- <div class="social">
                             <a href=""><i class="bi bi-twitter-x"></i></a>
                             <a href=""><i class="bi bi-facebook"></i></a>
                             <a href=""><i class="bi bi-instagram"></i></a>
                             <a href=""> <i class="bi bi-linkedin"></i> </a>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
             </div><!-- End Team Member -->
 
             <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
                 <div class="team-member d-flex align-items-start">
-                    <div class="pic"><img src="{{ url('homepage') }}/img/doctors/doctors-4.jpg" class="img-fluid"
+                    <div class="pic"><img src="{{ url('homepage') }}/img/doctors/cewe2.jpeg" class="img-fluid"
                             alt=""></div>
                     <div class="member-info">
                         <h4>Amanda Jepson</h4>
-                        <span>Neurosurgeon</span>
-                        <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
-                        <div class="social">
+                        <span>Dokter Kandungan</span>
+                        <p><!--Dolorum tempora officiis odit laborum officiis et et accusamus--></p>
+                        {{-- <div class="social">
                             <a href=""><i class="bi bi-twitter-x"></i></a>
                             <a href=""><i class="bi bi-facebook"></i></a>
                             <a href=""><i class="bi bi-instagram"></i></a>
                             <a href=""> <i class="bi bi-linkedin"></i> </a>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
             </div><!-- End Team Member -->
@@ -555,8 +556,8 @@
 
     <!-- Section Title -->
     <div class="container section-title" data-aos="fade-up">
-        <h2>Frequently Asked Questions</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <h2>Pertanyaan yang sering di ajukan</h2>
+        <p>Berikut adalah pertanyaan yang sering di ajukan masyarakat</p>
     </div><!-- End Section Title -->
 
     <div class="container">
@@ -568,65 +569,55 @@
                 <div class="faq-container">
 
                     <div class="faq-item faq-active">
-                        <h3>Non consectetur a erat nam at lectus urna duis?</h3>
+                        <h3>Apa saja fasilitas yang ada di Rumah sakit Purwakarta?</h3>
                         <div class="faq-content">
-                            <p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus
-                                laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor
-                                rhoncus dolor purus non.</p>
+                            <p>Ruang Pendaftaran dan Administrasi, Ruang Pemeriksaan Umum, Unit Gawat Darurat (UGD), Ruang Radiologi, 
+                                Ruang Operasi, Ruang Rawat Inap, Unit Perawatan Intensif (ICU), Ruang Bersalin</p>
                         </div>
                         <i class="faq-toggle bi bi-chevron-right"></i>
                     </div><!-- End Faq item-->
 
                     <div class="faq-item">
-                        <h3>Feugiat scelerisque varius morbi enim nunc faucibus?</h3>
+                        <h3>Berapa biaya konsultasi dengan dokter?</h3>
                         <div class="faq-content">
-                            <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id
-                                interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus
-                                scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim.
-                                Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+                            <p> Biaya konsultasi dokter dapat bervariasi tergantung pada spesialisasi dan lokasi rumah sakit.
+                                 Pastikan untuk bertanya langsung ke petugas administrasi.</p>
                         </div>
                         <i class="faq-toggle bi bi-chevron-right"></i>
                     </div><!-- End Faq item-->
 
                     <div class="faq-item">
-                        <h3>Dolor sit amet consectetur adipiscing elit pellentesque?</h3>
+                        <h3>Bagaimana cara mengatur janji temu dengan dokter?</h3>
                         <div class="faq-content">
-                            <p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci.
-                                Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl
-                                suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis
-                                convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+                            <p>Anda dapat menghubungi rumah sakit melalui telepon atau datang langsung ke ruang pendaftaran untuk membuat janji temu
                             </p>
                         </div>
                         <i class="faq-toggle bi bi-chevron-right"></i>
                     </div><!-- End Faq item-->
 
                     <div class="faq-item">
-                        <h3>Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?</h3>
+                        <h3>Bagaimana cara meminta surat rujukan BPJS?</h3>
                         <div class="faq-content">
-                            <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id
-                                interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus
-                                scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim.
-                                Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+                            <p>#Pasien tidak bisa meminta surat rujukan secara langsung. Dokter yang menentukan apakah pasien harus dirujuk ke rumah sakit atau tidak.<br>
+                                #Jika kondisi pasien bisa ditangani, rawat jalan di FKTP dilakukan hingga pasien sembuh.<br>
+                                #Jika penyakit kambuh, jangan langsung datang ke rumah sakit dengan membawa surat rujukan sebelumnya, Karena kemungkinan besar akan ditolak.</p>
                         </div>
                         <i class="faq-toggle bi bi-chevron-right"></i>
                     </div><!-- End Faq item-->
 
                     <div class="faq-item">
-                        <h3>Tempus quam pellentesque nec nam aliquam sem et tortor?</h3>
+                        <h3>Apakah tidak apa-apa bila merasa kram atau ada bercak darah?</h3>
                         <div class="faq-content">
-                            <p>Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse
-                                in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl
-                                suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
+                            <p>Kram atau bercak darah pada trimester pertama bisa normal karena proses implan telur yang dibuahi. Namun, jika terjadi terus-menerus, segera hubungi dokter kandungan untuk evaluasi lebih lanjut
                             </p>
                         </div>
                         <i class="faq-toggle bi bi-chevron-right"></i>
                     </div><!-- End Faq item-->
 
                     <div class="faq-item">
-                        <h3>Perspiciatis quod quo quos nulla quo illum ullam?</h3>
+                        <h3>Apa yang harus dilakukan jika gigi terasa ngilu?</h3>
                         <div class="faq-content">
-                            <p>Enim ea facilis quaerat voluptas quidem et dolorem. Quis et consequatur non sed
-                                in suscipit sequi. Distinctio ipsam dolore et.</p>
+                            <p>Gigi yang terasa ngilu adalah tanda bahwa ada masalah di sepanjang saluran akar gigi atau lapisan email (enamel) yang terkikis. Pertama-tama, mengonsumsi makanan atau minuman yang terlalu panas atau terlalu dingin bisa mengakibatkan ketidaknyamanan pada gigi yang sensitif. Jika kamu mengalami hal ini, cobalah gunakanlah pasta gigi yang dirancang khusus untuk gigi sensitif. Jika rasa ngilu masih berlanjut atau terdapat luka pada gigi, segeralah berkonsultasi dengan dokter gigi untuk mendapatkan perawatan yang tepat.</p>
                         </div>
                         <i class="faq-toggle bi bi-chevron-right"></i>
                     </div><!-- End Faq item-->
@@ -649,12 +640,8 @@
         <div class="row align-items-center">
 
             <div class="col-lg-5 info" data-aos="fade-up" data-aos-delay="100">
-                <h3>Testimonials</h3>
+                <h3>Testimoni</h3>
                 <p>
-                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                    reprehenderit in voluptate
-                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident.
                 </p>
             </div>
 
@@ -685,7 +672,7 @@
                                         class="testimonial-img flex-shrink-0" alt="">
                                     <div>
                                         <h3>Saul Goodman</h3>
-                                        <h4>Ceo &amp; Founder</h4>
+                                        <h4>Pegawai Swasta</h4>
                                         <div class="stars">
                                             <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
                                                 class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
@@ -695,9 +682,7 @@
                                 </div>
                                 <p>
                                     <i class="bi bi-quote quote-icon-left"></i>
-                                    <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora
-                                        entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam
-                                        eget nibh et. Maecen aliquam, risus at semper.</span>
+                                    <span>Saya kagum dengan tempatnya yang modern, nyaman, pelayanan yang cepat dan terintegrasi dengan sangat baik.</span>
                                     <i class="bi bi-quote quote-icon-right"></i>
                                 </p>
                             </div>
@@ -709,8 +694,8 @@
                                     <img src="{{ url('homepage') }}/img/testimonials/testimonials-2.jpg"
                                         class="testimonial-img flex-shrink-0" alt="">
                                     <div>
-                                        <h3>Sara Wilsson</h3>
-                                        <h4>Designer</h4>
+                                        <h3>Siska Rostika</h3>
+                                        <h4> Ibu Rumah Tangga</h4>
                                         <div class="stars">
                                             <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
                                                 class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
@@ -720,9 +705,8 @@
                                 </div>
                                 <p>
                                     <i class="bi bi-quote quote-icon-left"></i>
-                                    <span>Export tempor illum tamen malis malis eram quae irure esse labore quem
-                                        cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua
-                                        noster fugiat irure amet legam anim culpa.</span>
+                                    <span>Rumah sakitnya bagus dengan fasilitas yang memadai serta penanganan
+                                        dokter yang sangat baik dan ramah.</span>
                                     <i class="bi bi-quote quote-icon-right"></i>
                                 </p>
                             </div>
@@ -734,8 +718,8 @@
                                     <img src="{{ url('homepage') }}/img/testimonials/testimonials-3.jpg"
                                         class="testimonial-img flex-shrink-0" alt="">
                                     <div>
-                                        <h3>Jena Karlis</h3>
-                                        <h4>Store Owner</h4>
+                                        <h3>Agnes Kusmana</h3>
+                                        <h4>Mahasiswi</h4>
                                         <div class="stars">
                                             <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
                                                 class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
@@ -745,9 +729,7 @@
                                 </div>
                                 <p>
                                     <i class="bi bi-quote quote-icon-left"></i>
-                                    <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum
-                                        nulla quem veniam duis minim tempor labore quem eram duis noster aute
-                                        amet eram fore quis sint minim.</span>
+                                    <span>Pelayanan yang saya rasakan sangat baik, staf dan dokter ramah serta memberikan informasi yang sangat jelas.</span>
                                     <i class="bi bi-quote quote-icon-right"></i>
                                 </p>
                             </div>
@@ -759,8 +741,8 @@
                                     <img src="{{ url('homepage') }}/img/testimonials/testimonials-4.jpg"
                                         class="testimonial-img flex-shrink-0" alt="">
                                     <div>
-                                        <h3>Matt Brandon</h3>
-                                        <h4>Freelancer</h4>
+                                        <h3> Erik H.H Van Putten </h3>
+                                        <h4>Wiraswasta</h4>
                                         <div class="stars">
                                             <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
                                                 class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
@@ -770,9 +752,8 @@
                                 </div>
                                 <p>
                                     <i class="bi bi-quote quote-icon-left"></i>
-                                    <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos
-                                        export minim fugiat minim velit minim dolor enim duis veniam ipsum anim
-                                        magna sunt elit fore quem dolore labore illum veniam.</span>
+                                    <span>Pelayanannya responsif dan sangat profesional. Suasana yang sangat
+                                        kondusif sehingga merasa aman dan nyaman.</span>
                                     <i class="bi bi-quote quote-icon-right"></i>
                                 </p>
                             </div>
@@ -784,8 +765,8 @@
                                     <img src="{{ url('homepage') }}/img/testimonials/testimonials-5.jpg"
                                         class="testimonial-img flex-shrink-0" alt="">
                                     <div>
-                                        <h3>John Larson</h3>
-                                        <h4>Entrepreneur</h4>
+                                        <h3>Rinus Mesakh</h3>
+                                        <h4>Wirausaha</h4>
                                         <div class="stars">
                                             <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
                                                 class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
@@ -795,9 +776,7 @@
                                 </div>
                                 <p>
                                     <i class="bi bi-quote quote-icon-left"></i>
-                                    <span>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam
-                                        tempor noster veniam enim culpa labore duis sunt culpa nulla illum
-                                        cillum fugiat legam esse veniam culpa fore nisi cillum quid.</span>
+                                    <span>Pelayanannya responsif dan sangat profesional. Suasana yang sangat kondusif sehingga merasa aman dan nyaman.</span>
                                     <i class="bi bi-quote quote-icon-right"></i>
                                 </p>
                             </div>
@@ -821,7 +800,7 @@
     <!-- Section Title -->
     <div class="container section-title" data-aos="fade-up">
         <h2>Gallery</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <p></p>
     </div><!-- End Section Title -->
 
     <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
@@ -911,7 +890,7 @@
     <!-- Section Title -->
     <div class="container section-title" data-aos="fade-up">
         <h2>Berita</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <p>Berita Rumah Sakit Terkini dan Terbaru Hari ini</p>
     </div><!-- End Section Title -->
 
     <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -942,13 +921,11 @@
     <!-- Section Title -->
     <div class="container section-title" data-aos="fade-up">
         <h2>Kontak</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <p>Jika Anda Mempunyai Pertanyaan Cepat Silakan Hubungi Kami.</p>
     </div><!-- End Section Title -->
 
     <div class="mb-5" data-aos="fade-up" data-aos-delay="200">
-        <iframe style="border:0; width: 100%; height: 270px;"
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus"
-            frameborder="0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.900277281723!2d107.44287497366712!3d-6.534277193458452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e690e70243881db%3A0x8c47b40728701a25!2sDinas%20Kesehatan%20Kabupaten%20Purwakarta!5e0!3m2!1sid!2sid!4v1721225829736!5m2!1sid!2sid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div><!-- End Google Maps -->
 
     <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -968,7 +945,7 @@
                     <i class="bi bi-telephone flex-shrink-0"></i>
                     <div>
                         <h3>Hubungi Kami</h3>
-                        <p>(0264) 200218</p>
+                        <p>085280613035</p>
                     </div>
                 </div><!-- End Info Item -->
 
@@ -976,7 +953,7 @@
                     <i class="bi bi-envelope flex-shrink-0"></i>
                     <div>
                         <h3>Email Kami</h3>
-                        <p>info@example.com</p>
+                        <p>deniaprianto42@gmail.com</p>
                     </div>
                 </div><!-- End Info Item -->
 
@@ -988,30 +965,30 @@
                     <div class="row gy-4">
 
                         <div class="col-md-6">
-                            <input type="text" name="name" class="form-control" placeholder="Your Name"
+                            <input type="text" name="name" class="form-control" placeholder="Nama"
                                 required="">
                         </div>
 
                         <div class="col-md-6 ">
-                            <input type="email" class="form-control" name="email" placeholder="Your Email"
+                            <input type="email" class="form-control" name="email" placeholder="Email"
                                 required="">
                         </div>
 
                         <div class="col-md-12">
-                            <input type="text" class="form-control" name="subject" placeholder="Subject"
+                            <input type="text" class="form-control" name="subjek" placeholder="Subjek"
                                 required="">
                         </div>
 
                         <div class="col-md-12">
-                            <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                            <textarea class="form-control" name="pesan" rows="6" placeholder="Pesan" required=""></textarea>
                         </div>
 
                         <div class="col-md-12 text-center">
                             <div class="loading">Loading</div>
                             <div class="error-message"></div>
-                            <div class="sent-message">Your message has been sent. Thank you!</div>
+                            <div class="sent-message">Pesan mu telah terkirim. Terima kasih!</div>
 
-                            <button type="submit">Send Message</button>
+                            <button type="submit">Kirim Pesan</button>
                         </div>
 
                     </div>
